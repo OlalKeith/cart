@@ -2,6 +2,7 @@ package com.example.olal.cart2.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ListView;
 
 import com.example.olal.cart2.R;
 import com.example.olal.cart2.datamodels.Product;
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        ListView productlistview = (ListView) findViewById(R.id.productlistview);
 
     }
 
